@@ -3,7 +3,8 @@ import cv2
 import time
 from ultralytics import YOLO
 
-model = YOLO(r'C:\Users\Bibizhan\Desktop\myface\my_model\my_model.pt')
+MODEL_PATH = "my_model.pt"
+model = YOLO(MODEL_PATH)
 
 tello = Tello()
 tello.connect(wait_for_state=False)
