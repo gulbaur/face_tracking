@@ -42,7 +42,7 @@ The drone reacts to face position in the frame:
 ## Usage
 
 1. Connect to DJI Tello EDU via Wi-Fi
-2. Place your trained model at the path specified in the script
+2. Put your trained model `my_model.pt` next to the script (or change `MODEL_PATH` in it)
 3. Run:
 
 ```bash
